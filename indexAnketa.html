@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zooboo</title>
+		<link rel="stylesheet" href="css/Anketa.css">
+		<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Passion+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+	<script src="script/js1.js"></script>
+
+<header>
+		<div class="container">
+			<div class="heading clearfix">
+				<img src="img/logotop.png" alt="logotip" class="logo">	
+				<nav>
+					<ul class="menu">
+						<li>
+							<a href="index.html" target="_blank">Головна</a>
+						</li>
+						<li>
+							<a href="page2.html" target="_blank">Послуги та ціни</a>
+						</li>
+						<li>
+							<a href="page3.html" target="_blank">Наші лікарі</a>
+						</li>
+						<li>
+							<a href="indexContact.html" target="_blank">Контакти</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="titles">
+				<div class="titles_first">
+					Вітаємо у нашій лікарні
+				</div>
+				<h1>
+					ZooBoo
+				</h1>
+			</div>
+			<div class="titles_second">
+				ПРАЦЮЄМО ЦІЛОДОБОВО
+			</div>
+</header>		
+	
+	<div class="anketa">
+	<h1>Заповніть анкету</h1>
+<FORM NAME="Sel1">
+    <!-- Анкета -->
+    <TABLE>
+
+        <TR><TD><B>Прізвище господаря:<B></TD>
+            <TD><INPUT NAME="Family" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+
+ 		
+		<TR><TD><B>Яка у Вас тваринка:<B></TD>
+            <TD> <SELECT NAME="AnimalClass" SIZE=6>
+        <OPTION VALUE="tea" SELECTED>Песик
+        <OPTION VALUE ="coffee">Котик
+        <OPTION VALUE ="milk">Папужка
+        <OPTION VALUE ="cocoa">Гризун
+        <OPTION VALUE ="juice">Рептилія
+        <OPTION VALUE ="juice">Інші
+    </SELECT></TD></TR>
+   
+   
+        <TR><TD><B>Ім'я тваринки:<B></TD>
+            <TD><INPUT NAME="Name" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+
+         <TR><TD><B>Стать тваринки:<B><TD>
+         	<INPUT TYPE="RADIO"  NAME="Sex" VALUE ="Man" CHECKED>Хлопчик
+    		<INPUT TYPE="RADIO"  NAME="Sex" VALUE ="Woman">Дівчинка</TD></TR>
+
+        <TR><TD><B>Вік:<B></TD>
+            <TD><INPUT NAME="Age" SIZE=5 VALUE="18" input type="number" min="1" value="1"></TD></TR>
+
+        <TR><TD><B>Телефон господаря:<B></TD>
+            <TD><INPUT NAME="Phone" SIZE=20></TD></TR>
+
+    </TABLE>
+    <INPUT TYPE="button" VALUE="Готово" onClick="Complete();">
+    <INPUT TYPE="reset" VALUE="Сброс">
+</FORM>
+</div>
+
+	<footer id="theEnd">
+		<ul class="widget-social">
+			<li>
+ 				<a href="https://uk-ua.facebook.com/" class="fa fa-facebook"></a>
+ 			</li>
+ 			<li>
+ 				<a href="https://www.instagram.com/?hl=ru" class="fa fa-instagram"></a>
+ 			</li>
+ 			<li>
+ 				<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+ 			</li>
+		</ul>
+		
+		<div class="container3">
+			<span>&copy; 2020</span>
+		</div>		
+	</footer>
+</body>
+</html>
